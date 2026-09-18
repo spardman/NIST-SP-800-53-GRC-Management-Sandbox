@@ -1,0 +1,4 @@
+Asset Name / Vulnerability ID,Risk Description,Likelihood (1-5),Impact (1-5),Calculated Risk Score,Risk Severity Tier,Mitigation Strategy / Action Item
+VULN-2026-01,Ransomware exposure on legacy public-facing Apache web server running outdated software versions.,4,5,20,Critical,Isolate server inside an internal DMZ segment; patch Apache daemon to current stable baseline release; deploy endpoint protection agents.
+VULN-2026-02,Data exfiltration threat via missing multi-factor authentication (MFA) parameters on internal engineering VPN access portals.,3,4,12,High,Enforce absolute strict phishing-resistant MFA tokens globally via enterprise IDP integration configurations.
+VULN-2026-03,Privilege creeping threat leading to unauthorized engineering staff maintaining local admin rights on high-value corporate backup nodes.,2,5,10,Medium,Enforce strict Role-Based Access Control (RBAC); run automated quarterly privilege audits; configure automated session timeouts.
